@@ -1,0 +1,12 @@
+.idea
+
+.venv
+
+app.log
+
+Models
+
+Morph/input_files
+
+in.tmp
+out.tmp
