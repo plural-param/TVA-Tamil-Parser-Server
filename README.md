@@ -4,22 +4,11 @@
 
 - Python >= 3.10
 
+### Deployment
 
-#### Installation
+Before this deployment, please complete the frontend
+deployment - [TVA-Tamil-Parser](https://github.com/ltrcplural/TVA-Tamil-Parser.git)
 
 ```bash
-pip install -r requirements.py
-```
-
-#### Production
-```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload 
-```
-
-
-Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
-
-#### PM2 Host
-```bash
-pm2 start "gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app" --name TamilParserServer
+sh deploy.sh
 ```
