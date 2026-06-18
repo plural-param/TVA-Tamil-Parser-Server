@@ -12,3 +12,8 @@ deployment - [TVA-Tamil-Parser](https://github.com/ltrcplural/TVA-Tamil-Parser.g
 ```bash
 sh deploy.sh
 ```
+
+## Dependencies
+```bash
+sudo apt install lttoolbox
+```
